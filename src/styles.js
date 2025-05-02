@@ -6,7 +6,7 @@ export const h4Style = "font-semibold";
 export const experienceSection =
   "p-6 rounded-xl border-white/10 hover:-translate-y-1 transition-all";
 export const skillStyle =
-  "bg-coral-red-500/10 text-coral-red-500 py-1 px-3 rounded-full text-sm hover:bg-coral-red-500/20 hover: shadow-[0_2px_8px_rgba(59,130,2246,0.2))] transition";
+  "bg-coral-red-500/10 text-coral-red-500 py-1 px-3 rounded-full text-sm hover:bg-coral-red-500/20 hover: shadow-[0_0_15px_rgba(136, 20, 21, 0.2)] transition";
 
 export const projectStyle =
-  "hover:bg-red-500/20 hover: shadow-[0_2px_8px_rgba(59,130,246,0.1))] transition-all";
+  "hover:bg-red-500/20 hover: shadow-[0_0_15px_rgba(136, 20, 21, 0.1)] transition-all";
