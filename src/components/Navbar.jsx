@@ -28,7 +28,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             className="text-center font-mono text-xl font-bold text-white"
           >
             <img
-              src="../../public/assets/logo.png"
+              src="/logo.png"
               alt="Terminal Calamity Profile Picture"
               className="h-12 w-auto rounded-2xl"
             />
