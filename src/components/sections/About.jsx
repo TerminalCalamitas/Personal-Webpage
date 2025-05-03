@@ -72,7 +72,7 @@ export const About = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <div className="flex flex-col md:grid md:grid-cols-2 gap-6 mt-8">
               <div className={experienceSection}>
                 <h3 className={h3Style}> Education </h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
