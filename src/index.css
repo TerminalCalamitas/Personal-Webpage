@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-coral-red-50: #fff1f1;
+  --color-coral-red-100: #ffe0e0;
+  --color-coral-red-200: #ffc5c5;
+  --color-coral-red-300: #ff9d9e;
+  --color-coral-red-400: #ff6566;
+  --color-coral-red-500: #fe494a;
+  --color-coral-red-600: #ec1617;
+  --color-coral-red-700: #c70e0f;
+  --color-coral-red-800: #a41011;
+  --color-coral-red-900: #881415;
+  --color-coral-red-950: #4a0505;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu mono", sans-serif;
+  background: #0a0a0a;
+  color: #f3f4f6;
+}
+
+@layer utilities {
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 0.8s step-end infinite;
+  }
+
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  .animate-loading-bar {
+    animation: loading 0.8s ease infinite;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
