@@ -2,6 +2,12 @@ import { RevealOnScroll } from "../RevealOnScroll.jsx";
 import { h2Style, projectStyle } from "../../styles.js";
 
 export const Projects = () => {
+  /*{
+      title: "Project Title",
+      description: "project description",
+      skills: ["React", "Node.js", "Docker"],
+      href: "https://www.github.com",
+    },*/
   const projects = [
     {
       title: "Minecraft DJ Bot",
@@ -10,10 +16,17 @@ export const Projects = () => {
       href: "https://github.com/TerminalCalamitas/Minecraft-DJ-Bot",
     },
     {
-      title: "Project Title",
-      description: "project description",
-      skills: ["React", "Node.js", "Docker"],
-      href: "https://www.github.com",
+      title: "Calamity Lang",
+      description: "Wrote an interpreted programming language in Python",
+      skills: ["Python"],
+      href: "https://github.com/TerminalCalamitas/Calamity-lang",
+    },
+    {
+      title: "Quick Links Page",
+      description:
+        "A webpage for organizing and keeping track of frequently used websites.",
+      skills: ["javascript", "HTML", "CSS"],
+      href: "https://github.com/TerminalCalamitas/quick-links-page",
     },
   ];
   return (

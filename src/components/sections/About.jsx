@@ -87,7 +87,7 @@ export const About = () => {
                 </ul>
               </div>
 
-              <div className={experienceSection}>
+              {/*<div className={experienceSection}>
                 <h3 className={h3Style}> Work Experience </h3>
                 <div className="space-y-4 text-gray-300">
                   <div>
@@ -104,7 +104,7 @@ export const About = () => {
                     <p>didn't leak government data</p>
                   </div>
                 </div>
-              </div>
+              </div>*/}
               <div className={`col-span-2 ${experienceSection}`}>
                 <h3 className={h3Style}> Awards and Training </h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
