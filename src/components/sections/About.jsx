@@ -27,7 +27,7 @@ export const About = () => {
       className="min-h-screen flex items-center justify-center py20"
     >
       <RevealOnScroll>
-        <div className="max-w-3xl mx-auto px-4">
+        <div className="max-w-5xl mx-auto px-4">
           <h2 className={h2Style}>{"About Me"}</h2>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
